@@ -13,7 +13,7 @@ library(BART)
 
 detach(kaggle)
 kaggle = read.csv(
-  'C:/Users/MMM/Desktop/colleg stuff/Spring 2024/Experimental Design/ed hw/project/kaggle-preprocessed-fixed.csv',
+  'C:/Users/MMM/Desktop/colleg stuff/Spring 2024/Experimental Design/ed hw/project/kaggle-usability.csv',
   header = T)
 str(kaggle)
 attach(kaggle)
